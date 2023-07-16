@@ -1,0 +1,197 @@
+name: wordskonf
+description: Udmurt fillword game
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.1+2
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  shared_preferences: ^2.1.1
+  animated_splash_screen: ^1.3.0
+  splashscreen: ^1.3.5
+  audioplayers: ^0.20.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/final_icon.png"
+
+
+dev_dependencies:
+
+
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  assets:
+    - assets/sound.mp3
+    - assets/final_splash.png
+    - assets/launcher1.jpg
+    - assets/bank.png
+    - assets/fonred.png
+    - assets/logo1.png
+    - assets/startbank.png
+    - assets/bank1-25.png
+    - assets/bank2-25.png
+    - assets/bank3-25.png
+    - assets/bank4-25.png
+    - assets/bank5-25.png
+    - assets/bank6-25.png
+    - assets/bank7-25.png
+    - assets/bank8-25.png
+    - assets/bank9-25.png
+    - assets/bank10-25.png
+    - assets/bank11-25.png
+    - assets/bank12-25.png
+    - assets/bank13-25.png
+    - assets/bank14-25.png
+    - assets/bank15-25.png
+    - assets/bank16-25.png
+    - assets/bank17-25.png
+    - assets/bank18-25.png
+    - assets/bank19-25.png
+    - assets/bank20-25.png
+    - assets/bank21-25.png
+    - assets/bank22-25.png
+    - assets/bank23-25.png
+    - assets/bank24-25.png
+    - assets/bank25-25.png
+    - assets/bank26-25.png
+    - assets/bank27-25.png
+    - assets/bank28-25.png
+    - assets/bank29-25.png
+    - assets/bank30-25.png
+    - assets/bank31-25.png
+    - assets/bank32-25.png
+    - assets/bank33-25.png
+    - assets/bank34-25.png
+    - assets/bank35-25.png
+    - assets/bank36-25.png
+    - assets/bank37-25.png
+    - assets/bank38-25.png
+    - assets/bank40-25.png
+    - assets/bank41-25.png
+    - assets/startbank1-25.png
+    - assets/startbank2-25.png
+    - assets/startbank3-25.png
+    - assets/startbank4-25.png
+    - assets/startbank5-25.png
+    - assets/startbank6-25.png
+    - assets/startbank7-25.png
+    - assets/startbank8-25.png
+    - assets/startbank9-25.png
+    - assets/startbank10-25.png
+    - assets/startbank11-25.png
+    - assets/startbank12-25.png
+    - assets/startbank13-25.png
+    - assets/startbank14-25.png
+    - assets/startbank15-25.png
+    - assets/startbank16-25.png
+    - assets/startbank17-25.png
+    - assets/startbank18-25.png
+    - assets/startbank19-25.png
+    - assets/startbank20-25.png
+    - assets/startbank21-25.png
+    - assets/startbank22-25.png
+    - assets/startbank23-25.png
+    - assets/startbank24-25.png
+    - assets/startbank25-25.png
+    - assets/startbank26-25.png
+    - assets/startbank27-25.png
+    - assets/startbank28-25.png
+    - assets/startbank29-25.png
+    - assets/startbank30-25.png
+    - assets/startbank31-25.png
+    - assets/startbank32-25.png
+    - assets/startbank33-25.png
+    - assets/startbank34-25.png
+    - assets/startbank35-25.png
+    - assets/startbank36-25.png
+    - assets/startbank37-25.png
+    - assets/startbank38-25.png
+    - assets/startbank39-25.png
+    - assets/startbank40-25.png
+    - assets/startbank41-25.png
+    - assets/logo.png
+    - assets/pause1.png
+    - assets/attention.png
+    - assets/question.png
+    - assets/book.png
+    - assets/window.png
+    - assets/lamp2.png
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
