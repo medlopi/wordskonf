@@ -1342,7 +1342,6 @@ class _GameScreen2State extends State<GameScreen2> {
         .every((element) => element.every((c) => c.isKnown))){
       widget.helpCount++;
       savedVariables();
-      widget.player.play("sound.mp3", volume: 1000000);
       if (widget.isEducation == 3){
       if(widget.level < challengeLevels.length-1){
         setState(() {
